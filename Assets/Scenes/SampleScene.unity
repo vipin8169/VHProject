@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch23_nonPBR
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: f25ba33769b6e7d4790bdc2a49a6abc1,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3233f6a4d6823bf4c9ac52602b2b2c56, type: 2}
     - target: {fileID: -4216859302048453862, guid: f25ba33769b6e7d4790bdc2a49a6abc1,
         type: 3}
       propertyPath: m_LocalPosition.x
