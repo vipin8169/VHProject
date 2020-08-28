@@ -8,8 +8,8 @@ namespace CrazyMinnow.SALSA.OneClicks
 		public static void Setup(GameObject go)
 		{
 			string body = "body";
-			string eyelash = "eyelash";
-			string head = "head";
+            string[] eyelash = new string[] { "eyelash", "default" };
+            string head = "head";
 			string eyeL = "lefteye";
 			string eyeR = "righteye";
 			string blinkL = "blink_left";
