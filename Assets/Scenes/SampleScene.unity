@@ -11753,6 +11753,7 @@ GameObject:
   - component: {fileID: 8296172668034770747}
   - component: {fileID: 8296172668034770746}
   - component: {fileID: 8296172668034770745}
+  - component: {fileID: 8296172668034770750}
   m_Layer: 0
   m_Name: Jessica
   m_TagString: Untagged
@@ -16180,7 +16181,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ffed61721584262499da6ffab63be1f0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -19225,6 +19226,19 @@ MonoBehaviour:
   inspShowLids: 1
   inspShowLipsync: 1
   inspShowBlinks: 1
+--- !u!114 &8296172668034770750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668034770744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c1809e86d4ccb4ba07a424a42e1728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 8296172668034770747}
 --- !u!4 &8310052124758348520
 Transform:
   m_ObjectHideFlags: 0
