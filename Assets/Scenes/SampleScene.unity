@@ -13219,11 +13219,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salsaInstance: {fileID: 8296172668034770749}
-  bufferSize: 512
-  silenceThreshold: 0.6
+  bufferSize: 256
+  silenceThreshold: 0.1
   timingStartPoint: 0.4
-  timingEndVariance: 1
-  silenceSampleWeight: 0.95
+  timingEndVariance: 0.9
+  silenceSampleWeight: 0.98
   silenceHits: 0
 --- !u!114 &8296172668034770747
 MonoBehaviour:
@@ -16869,7 +16869,7 @@ MonoBehaviour:
   inspSalsaLinked: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
-  inspStateFoldoutEmotes: 1
+  inspStateFoldoutEmotes: 0
   inspCollectionDisplayMode: 0
 --- !u!82 &8296172668034770748
 AudioSource:
@@ -16988,18 +16988,18 @@ MonoBehaviour:
   emphasizerTrigger: 0
   analysisValue: 0
   sampleSize: 512
-  audioUpdateDelay: 0.08
+  audioUpdateDelay: 0.0805
   playheadBias: 2800
   autoAdjustAnalysis: 1
   autoAdjustMicrophone: 0
   microphoneRecordHeadPointer: 0
   scaleExternalAnalysis: 0
   silencePulseThreshold: 3
-  loCutoff: 0.015
-  hiCutoff: 0.75
+  loCutoff: 0.025
+  hiCutoff: 0.6
   useAdvDyn: 1
-  advDynPrimaryBias: 0.5
-  useAdvDynJitter: 1
+  advDynPrimaryBias: 0.85
+  useAdvDynJitter: 0
   advDynJitterAmount: 0.1
   advDynJitterProb: 0.2
   useAdvDynSecondaryMix: 0
@@ -17008,12 +17008,12 @@ MonoBehaviour:
   advDynRollback: 0.3
   globalFrac: 1
   usePersistence: 0
-  useTimingsOverride: 0
-  globalDurON: 0.08
-  globalDurOFF: 0.06
-  globalDurOffBalance: 0
-  originalUpdateDelay: 0
-  globalNuanceBalance: 0
+  useTimingsOverride: 1
+  globalDurON: 0.1
+  globalDurOFF: 0.08
+  globalDurOffBalance: -0.2
+  originalUpdateDelay: 0.0805
+  globalNuanceBalance: -0.195
   useEasingOverride: 0
   globalEasing: 4
   visemes:
