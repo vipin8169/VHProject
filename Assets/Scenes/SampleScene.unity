@@ -270,6 +270,66 @@ Transform:
   m_Father: {fileID: 6055796633225118908}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &418054270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 418054271}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:LeftEye_eyeRefFwd_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418054271
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418054270}
+  m_LocalRotation: {x: -1.4914603e-36, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.032084353, y: 0.06543539, z: 0.09226385}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2989701456801215452}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &541690112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 541690113}
+  m_Layer: 0
+  m_Name: Jessica_HeadCenterGizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &541690113
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541690112}
+  m_LocalRotation: {x: -0, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.00000015011213, y: 0.0955328, z: 0.016793735}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 6055796633225118908}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &561308086
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +594,66 @@ Transform:
   m_Father: {fileID: 6055796632733360913}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1018725403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1018725404}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:Head_headRefFwd_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1018725404
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018725403}
+  m_LocalRotation: {x: -0, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.00000015011213, y: 0.0955328, z: 0.016793735}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 6055796633225118908}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1193132574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193132575}
+  m_Layer: 0
+  m_Name: Jessica_EyeTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1193132575
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193132574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.000026389955, y: 1.6629888, z: -1.0773833}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1243395454
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +683,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2989701457259615345}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1342378161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342378162}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:RightEye_eyeRefFix_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1342378162
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342378161}
+  m_LocalRotation: {x: -1.4914603e-36, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: 0.032026425, y: 0.06543482, z: 0.0922587}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2989701456801215452}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1476444654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476444655}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:LeftEye_eyeRefFix_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1476444655
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476444654}
+  m_LocalRotation: {x: -1.4914603e-36, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.032084353, y: 0.06543539, z: 0.09226385}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2989701456801215452}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1600930059
 GameObject:
@@ -653,6 +833,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6055796633225118908}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1837879029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837879030}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:RightEye_eyeRefFwd_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1837879030
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837879029}
+  m_LocalRotation: {x: -1.4914603e-36, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: 0.032026425, y: 0.06543482, z: 0.0922587}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2989701456801215452}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1897675144
 GameObject:
@@ -747,6 +957,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!1 &1917202789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1917202790}
+  m_Layer: 0
+  m_Name: Jessica_HeadTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1917202790
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917202789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0000025708205, y: 1.6495538, z: -0.9851221}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919286896
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +1017,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1946093597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946093598}
+  m_Layer: 0
+  m_Name: Jessica_mixamorig:Head_headRefFix_Gizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946093598
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946093597}
+  m_LocalRotation: {x: -0, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.00000015011213, y: 0.0955328, z: 0.016793735}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 6055796633225118908}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1971609714
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +1076,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2142309587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2142309588}
+  m_Layer: 0
+  m_Name: Jessica_EyeCenterGizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142309588
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142309587}
+  m_LocalRotation: {x: -1.4914603e-36, y: -7.531752e-13, z: -1.8030019e-13, w: 1}
+  m_LocalPosition: {x: -0.000028960774, y: 0.065435134, z: 0.09226128}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2989701456801215452}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5554819770568859
 GameObject:
@@ -2663,6 +2963,11 @@ Transform:
   - {fileID: 561308087}
   - {fileID: 296456894}
   - {fileID: 1712735564}
+  - {fileID: 2142309588}
+  - {fileID: 418054271}
+  - {fileID: 1476444655}
+  - {fileID: 1837879030}
+  - {fileID: 1342378162}
   m_Father: {fileID: 6055796633225118908}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4532,6 +4837,9 @@ Transform:
   - {fileID: 2989701456801215452}
   - {fileID: 1731678887}
   - {fileID: 417835438}
+  - {fileID: 541690113}
+  - {fileID: 1018725404}
+  - {fileID: 1946093598}
   m_Father: {fileID: 6473791462992064604}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5974,10 +6282,14 @@ MonoBehaviour:
   inspStateFoldoutEyelids: 0
   inspStateFoldoutEyelidBlinkProps: 1
   inspStateFoldoutEyelidTrackProps: 1
-  configReadyHeads: 1
+  drawEyeBoneCaptureControls: 0
+  drawBlinkBoneCaptureControls: 0
+  drawTrackBoneCaputreControls: 0
   headIsRoot: 0
-  configReadyEyes: 1
-  configReadyEyelids: 1
+  configReadyHead: 1
+  configReadyEye: 1
+  configReadyBlink: 1
+  configReadyTrack: 1
   characterRoot: {fileID: 5006512736447066758}
   queueProcessor: {fileID: 8296172667555512474}
   lookTarget: {fileID: 0}
@@ -5992,6 +6304,7 @@ MonoBehaviour:
   flipSprite: {fileID: 0}
   parentRandTargets: 1
   showSceneGizmos: 1
+  warnOnNullRefs: 1
   flipState: 0
   animCancel: []
   headEnabled: 1
@@ -6006,14 +6319,15 @@ MonoBehaviour:
   headRandTimerRange: {x: 5, y: 10}
   headRandTimer: 13.341316
   headRandDistRange: {x: 1, y: 1}
+  updateHeadFwdCenterRefs: 1
   headTargetRadius: 0.01
   headBones:
   - trans:
     - {fileID: 2989701457259615345}
-  headRefs:
-  - trans:
-    - {fileID: 1006388536}
+  headRefsFwd: []
+  headRefsFix: []
   headRefCenter: {fileID: 367771960}
+  newHeadDirs: []
   headTarget: {fileID: 1919286897}
   headTarget2D: {x: 0, y: 0, z: 0}
   heads:
@@ -6036,10 +6350,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 2989701457259615345}
         baseTform:
@@ -6090,13 +6406,16 @@ MonoBehaviour:
   eyeEnabled: 1
   eyeTemplate: 1
   sectorCount: 3
+  prevSectorCount: 0
   eyeControlType: 1
   forwardSectorRadius: 1
   eye2DProcessing: 0
+  eye2DDepth: 1
+  eyePosPercentX: 0
+  eyePosPercentY: 0
   useEyeShapes: 0
   useEyeSectors: 0
   eyeClamp: {x: 25, y: 45, z: 0}
-  eyeRangeOfMotion2D: 0.1
   eyeRandom: 1
   eyeRandomFov: {x: 2.5, y: 5, z: 10}
   eyeRandTrackFov: {x: 0.1, y: 0.05}
@@ -6110,17 +6429,10 @@ MonoBehaviour:
     - {fileID: 8960307037076470423}
   - trans:
     - {fileID: 8066967935547620368}
-  eyeRefs:
-  - trans:
-    - {fileID: 401965738}
-  - trans:
-    - {fileID: 1243395455}
+  eyeRefsFwd: []
+  eyeRefsFix: []
   eyeRefCenter: {fileID: 263563995}
-  newEyeEulers:
-  - vec:
-    - {x: -2.9250953e-23, y: -2.60551e-11, z: -1.2946129e-10}
-  - vec:
-    - {x: -2.9250953e-23, y: -2.60551e-11, z: -1.2946129e-10}
+  newEyeDirs: []
   eyeTarget: {fileID: 1971609715}
   eyeTarget2D: {x: 0, y: 0, z: 0}
   eyes:
@@ -6143,10 +6455,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 8960307037076470423}
         baseTform:
@@ -6212,10 +6526,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 8066967935547620368}
         baseTform:
@@ -6281,6 +6597,7 @@ MonoBehaviour:
   blinkRandTimerRange: {x: 0.5, y: 5}
   blinkRandTimer: 4.729237
   eyelidPercentEyes: 0.5
+  trackPercent: 0
   blinklids:
   - expData:
       name: eyelidL
@@ -6301,10 +6618,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6370,10 +6689,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6439,10 +6760,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6508,10 +6831,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6589,10 +6914,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6658,10 +6985,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6727,10 +7056,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6796,10 +7127,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -6884,10 +7217,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: EyesWideR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -6904,10 +7239,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -6924,10 +7261,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -6944,10 +7283,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -6964,10 +7305,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -6984,10 +7327,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -7239,6 +7584,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.55
   - expData:
       name: soften
@@ -7259,10 +7606,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: Facial_Blends.SmileR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -7279,10 +7628,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -7299,10 +7650,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -7319,10 +7672,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -7494,6 +7849,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.45
   - expData:
       name: browsUp
@@ -7514,10 +7871,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -7534,10 +7893,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -7629,6 +7990,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.637
   - expData:
       name: browUp
@@ -7649,10 +8012,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -7669,10 +8034,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -7764,6 +8131,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: squint
@@ -7784,10 +8153,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -7804,10 +8175,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -7824,10 +8197,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -7844,10 +8219,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -8019,6 +8396,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: focus
@@ -8039,10 +8418,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -8059,10 +8440,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -8154,6 +8537,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 1
   - expData:
       name: flare
@@ -8174,10 +8559,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -8194,10 +8581,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -8289,6 +8678,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: scrunch
@@ -8309,10 +8700,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -8329,10 +8722,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -8349,10 +8744,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -8369,10 +8766,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -8389,10 +8788,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -8409,10 +8810,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -8664,10 +9067,13 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   useRandomEmotes: 0
   isChancePerEmote: 1
   numRandomEmotesPerCycle: 0
+  numRandomEmphasizersPerCycle: 0
   randomEmoteMinTimer: 1
   randomEmoteMaxTimer: 2
   randomChance: 0.5
@@ -8677,6 +9083,7 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 1
+  warnOnNullRefs: 1
   inspSalsaLinked: 0
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
@@ -8792,19 +9199,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSrc: {fileID: 8296172667555512472}
   waitForAudioSource: 0
-  audioSourceWaitTarget: {fileID: 0}
   useExternalAnalysis: 0
-  audioUpdateDelay: 0.08
+  audioSourceWaitTarget: {fileID: 0}
+  queueProcessor: {fileID: 8296172667555512474}
+  emoter: {fileID: 8296172667555512471}
+  emphasizerTrigger: 0.2
   analysisValue: 0
-  loCutoff: 0.045
-  hiCutoff: 0.75
+  sampleSize: 512
+  audioUpdateDelay: 0.08
   playheadBias: 2800
   autoAdjustAnalysis: 1
   autoAdjustMicrophone: 0
-  microphone: 
   microphoneRecordHeadPointer: 0
+  scaleExternalAnalysis: 0
   silencePulseThreshold: 3
-  queueProcessor: {fileID: 8296172667555512474}
+  loCutoff: 0.045
+  hiCutoff: 0.75
+  useAdvDyn: 1
+  advDynPrimaryBias: 0.5
+  useAdvDynJitter: 1
+  advDynJitterAmount: 0.1
+  advDynJitterProb: 0.25
+  useAdvDynSecondaryMix: 0
+  advDynSecondaryMix: 0
+  useAdvDynRollback: 0
+  advDynRollback: 0.3
+  globalFrac: 1
+  usePersistence: 0
+  useTimingsOverride: 0
+  globalDurON: 0.08
+  globalDurOFF: 0.06
+  globalDurOffBalance: 0
+  originalUpdateDelay: 0
+  globalNuanceBalance: 0
+  useEasingOverride: 0
+  globalEasing: 4
   visemes:
   - expData:
       name: w
@@ -8825,10 +9254,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -8845,10 +9276,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -8865,10 +9298,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -8885,10 +9320,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -8905,10 +9342,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipOut cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -8925,10 +9364,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -9193,10 +9634,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -9213,10 +9656,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -9233,10 +9678,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: TongueUp cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -9253,10 +9700,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -9273,10 +9722,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -9293,10 +9744,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -9561,10 +10014,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipIn cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -9581,10 +10036,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -9601,10 +10058,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -9621,10 +10080,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -9641,10 +10102,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -9661,10 +10124,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -9929,10 +10394,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: TongueUp cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -9949,10 +10416,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -9969,10 +10438,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -9989,10 +10460,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -10009,10 +10482,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthUp cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -10029,10 +10504,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -10297,10 +10774,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -10317,10 +10796,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -10337,10 +10818,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -10357,10 +10840,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -10377,10 +10862,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: JawDown cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -10397,10 +10884,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -10417,10 +10906,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -10437,10 +10928,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -10785,10 +11278,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -10805,10 +11300,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SmileL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -10825,10 +11322,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SmileR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -10845,10 +11344,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthOpen cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -10865,10 +11366,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -10885,10 +11388,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -10905,10 +11410,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipIn cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -10925,10 +11432,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 8
         controlType: 0
         lipsyncControlType: 0
@@ -10945,10 +11454,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 9
         controlType: 0
         lipsyncControlType: 0
@@ -10965,10 +11476,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthUp cmpnt 10
         controlType: 0
         lipsyncControlType: 0
@@ -10985,10 +11498,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -11453,10 +11968,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -11473,10 +11990,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -11493,10 +12012,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthDown cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -11513,10 +12034,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -11682,35 +12205,10 @@ MonoBehaviour:
       previewDisplayMode: 0
       collectionExpand: 0
     trigger: 0.7346939
-  sampleSize: 512
-  emoter: {fileID: 8296172667555512471}
-  emphasizerTrigger: 0.2
-  scaleExternalAnalysis: 0
-  useAdvDyn: 1
-  advDynPrimaryBias: 0.5
-  useAdvDynJitter: 1
-  advDynJitterAmount: 0.1
-  advDynJitterProb: 0.25
-  useAdvDynSecondaryMix: 0
-  advDynSecondaryMix: 0
-  useAdvDynRollback: 0
-  advDynRollback: 0.3
-  globalFrac: 1
-  dynaVariOn: 0.08
-  dynaVariHold: 0
-  dynaVariOff: 0.06
-  dynaVariEasing: 4
-  usePersistence: 0
-  useMergeBack: 0
-  useTimingsOverride: 0
-  globalDurON: 0.08
-  globalDurOFF: 0.06
-  globalDurOffBalance: 0
-  originalUpdateDelay: 0
-  globalNuanceBalance: 0
-  useEasingOverride: 0
-  globalEasing: 4
   configReady: 1
+  warnOnNullRefs: 1
+  useAudioAnalysis: 1
+  needAudioSource: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
   inspStateFoldoutVisemes: 0
@@ -11731,6 +12229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useMergeWithInfluencer: 1
+  ignoreScaledTime: 0
   inspHeight: 150
   inspShowHeads: 1
   inspShowEmote: 1
@@ -11748,12 +12247,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5006512735955096875}
   - component: {fileID: 3166231814839089233}
+  - component: {fileID: 8296172668034770750}
+  - component: {fileID: 8296172668034770751}
   - component: {fileID: 8296172668034770749}
   - component: {fileID: 8296172668034770748}
   - component: {fileID: 8296172668034770747}
   - component: {fileID: 8296172668034770746}
   - component: {fileID: 8296172668034770745}
-  - component: {fileID: 8296172668034770750}
   m_Layer: 0
   m_Name: Jessica
   m_TagString: Untagged
@@ -11782,12 +12282,16 @@ MonoBehaviour:
   inspStateFoldoutEyelids: 0
   inspStateFoldoutEyelidBlinkProps: 1
   inspStateFoldoutEyelidTrackProps: 1
-  configReadyHeads: 1
+  drawEyeBoneCaptureControls: 0
+  drawBlinkBoneCaptureControls: 0
+  drawTrackBoneCaputreControls: 0
   headIsRoot: 0
-  configReadyEyes: 1
-  configReadyEyelids: 1
+  configReadyHead: 1
+  configReadyEye: 1
+  configReadyBlink: 1
+  configReadyTrack: 1
   characterRoot: {fileID: 5006512735955096875}
-  queueProcessor: {fileID: 8296172668034770749}
+  queueProcessor: {fileID: 8296172668034770751}
   lookTarget: {fileID: 0}
   useAffinity: 0
   affinityPercentage: 0.75
@@ -11798,31 +12302,42 @@ MonoBehaviour:
   flipType: 0
   flipScale: {fileID: 0}
   flipSprite: {fileID: 0}
-  parentRandTargets: 1
+  parentRandTargets: 0
   showSceneGizmos: 1
+  warnOnNullRefs: 1
   flipState: 0
   animCancel: []
   headEnabled: 1
   headTemplate: 1
   head2DProcessing: 0
   headTargetOffset: {x: 0, y: 0.052, z: 0}
-  headClamp: {x: 45, y: 160, z: 45}
+  headClamp: {x: 70, y: 140, z: 45}
   headFacingCamera: 0
   headRandom: 1
   headRandomFov: {x: 5, y: 45, z: 22.5}
   headRandFovHalf: {x: 0, y: 0, z: 0}
   headRandTimerRange: {x: 5, y: 10}
-  headRandTimer: 12.644095
+  headRandTimer: 10.858974
   headRandDistRange: {x: 1, y: 1}
+  updateHeadFwdCenterRefs: 1
   headTargetRadius: 0.01
   headBones:
   - trans:
     - {fileID: 2989701456801215452}
-  headRefs:
+  headRefsFwd:
   - trans:
-    - {fileID: 417835438}
-  headRefCenter: {fileID: 1731678887}
-  headTarget: {fileID: 1600930060}
+    - {fileID: 1018725404}
+    offset:
+    - {x: -1.6802106e-25, y: 7.531753e-13, z: 4.5474735e-13, w: 1}
+  headRefsFix:
+  - trans:
+    - {fileID: 1946093598}
+  headRefCenter: {fileID: 541690113}
+  newHeadDirs:
+  - dir:
+    - vec: {x: -1.5561263e-23, y: -8.6307524e-11, z: -2.0660881e-11}
+      quat: {x: 2.2736816e-13, y: 1, z: 7.395506e-11, w: -7.3896445e-13}
+  headTarget: {fileID: 1917202790}
   headTarget2D: {x: 0, y: 0, z: 0}
   heads:
   - expData:
@@ -11844,29 +12359,31 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 2989701456801215452}
         baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.00000015011288, y: 0.09553277, z: 0.01679373}
+          rot: {x: 0, y: 0, z: 1.9802302e-24, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.00000015011288, y: 0.09553277, z: 0.01679373}
+          rot: {x: 0, y: 0, z: 1.9802302e-24, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.00000015011288, y: 0.09553277, z: 0.01679373}
+          rot: {x: 0, y: 0, z: 1.9802302e-24, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         fracPos: 0
         fracRot: 1
         fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
+        inspIsSetStart: 1
+        inspIsSetEnd: 1
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 0}
@@ -11898,19 +12415,22 @@ MonoBehaviour:
   eyeEnabled: 1
   eyeTemplate: 1
   sectorCount: 3
+  prevSectorCount: 0
   eyeControlType: 1
   forwardSectorRadius: 1
   eye2DProcessing: 0
+  eye2DDepth: 1
+  eyePosPercentX: 0
+  eyePosPercentY: 0
   useEyeShapes: 0
   useEyeSectors: 0
   eyeClamp: {x: 25, y: 45, z: 0}
-  eyeRangeOfMotion2D: 0.1
   eyeRandom: 1
   eyeRandomFov: {x: 2.5, y: 5, z: 10}
   eyeRandTrackFov: {x: 0.1, y: 0.05}
   eyeRandTrackFovAffinity: {x: 0.2, y: 0.1}
   eyeRandTimerRange: {x: 0.25, y: 1}
-  eyeRandTimer: 6.4357815
+  eyeRandTimer: 6.479604
   eyeRandDistRange: {x: 1, y: 1}
   eyeTargetRadius: 0.01
   eyeBones:
@@ -11918,18 +12438,29 @@ MonoBehaviour:
     - {fileID: 8960307037524712762}
   - trans:
     - {fileID: 8066967936033610685}
-  eyeRefs:
+  eyeRefsFwd:
   - trans:
-    - {fileID: 296456894}
+    - {fileID: 418054271}
+    offset:
+    - {x: -1.6802106e-25, y: 7.531753e-13, z: 4.5474735e-13, w: 1}
   - trans:
-    - {fileID: 1712735564}
-  eyeRefCenter: {fileID: 561308087}
-  newEyeEulers:
-  - vec:
-    - {x: 1.7500816e-25, y: -1.6284438e-12, z: 1.2315106e-11}
-  - vec:
-    - {x: 1.7500816e-25, y: -1.6284438e-12, z: 1.2315106e-11}
-  eyeTarget: {fileID: 678105441}
+    - {fileID: 1837879030}
+    offset:
+    - {x: -1.6802106e-25, y: 7.531753e-13, z: 4.5474735e-13, w: 1}
+  eyeRefsFix:
+  - trans:
+    - {fileID: 1476444655}
+  - trans:
+    - {fileID: 1342378162}
+  eyeRefCenter: {fileID: 2142309588}
+  newEyeDirs:
+  - dir:
+    - vec: {x: -1.5561263e-23, y: -8.6307524e-11, z: -2.0660881e-11}
+      quat: {x: 2.2736816e-13, y: 1, z: 7.395506e-11, w: -7.3896445e-13}
+  - dir:
+    - vec: {x: -1.5561263e-23, y: -8.6307524e-11, z: -2.0660881e-11}
+      quat: {x: 2.2736816e-13, y: 1, z: 7.395506e-11, w: -7.3896445e-13}
+  eyeTarget: {fileID: 1193132575}
   eyeTarget2D: {x: 0, y: 0, z: 0}
   eyes:
   - expData:
@@ -11951,29 +12482,31 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 8960307037524712762}
         baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.032084353, y: 0.06543538, z: 0.09226384}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.032084353, y: 0.06543538, z: 0.09226384}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: -0.032084353, y: 0.06543538, z: 0.09226384}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         fracPos: 0
         fracRot: 1
         fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
+        inspIsSetStart: 1
+        inspIsSetEnd: 1
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 0}
@@ -12020,29 +12553,31 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 8066967936033610685}
         baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: 0.032026425, y: 0.06543481, z: 0.09225871}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: 0.032026425, y: 0.06543481, z: 0.09225871}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
+          pos: {x: 0.032026425, y: 0.06543481, z: 0.09225871}
+          rot: {x: -2.4646135e-26, y: -2.1175824e-22, z: 4.7019774e-37, w: 1}
+          scale: {x: 1, y: 1, z: 1}
         fracPos: 0
         fracRot: 1
         fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
+        inspIsSetStart: 1
+        inspIsSetEnd: 1
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 0}
@@ -12087,20 +12622,21 @@ MonoBehaviour:
   blinkOff: 0
   blinkRandom: 1
   blinkRandTimerRange: {x: 0.5, y: 5}
-  blinkRandTimer: 9.759389
+  blinkRandTimer: 9.242522
   eyelidPercentEyes: 0.5
+  trackPercent: 0
   blinklids:
   - expData:
       name: eyelidL
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12109,10 +12645,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12162,14 +12700,14 @@ MonoBehaviour:
   - expData:
       name: eyelidR
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12178,10 +12716,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12231,14 +12771,14 @@ MonoBehaviour:
   - expData:
       name: eyelashL
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12247,10 +12787,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12300,14 +12842,14 @@ MonoBehaviour:
   - expData:
       name: eyelashR
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12316,10 +12858,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12381,14 +12925,14 @@ MonoBehaviour:
   - expData:
       name: eyelidL
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 0
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12397,10 +12941,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12450,14 +12996,14 @@ MonoBehaviour:
   - expData:
       name: eyelidR
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 0
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12466,10 +13012,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12519,14 +13067,14 @@ MonoBehaviour:
   - expData:
       name: eyelashL
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 0
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12535,10 +13083,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12588,14 +13138,14 @@ MonoBehaviour:
   - expData:
       name: eyelashR
       components:
-      - name: Upper
+      - name: eyelid 0
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 0
         durationDelay: 0
         durationOn: 0.1
-        durationHold: 0.1
+        durationHold: 0
         durationOff: 0.1
         isSmoothDisable: 0
         isPersistent: 0
@@ -12604,10 +13154,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 2
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -12663,12 +13215,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 8296172668034770744}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 710820541, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salsaInstance: {fileID: 8296172668034770749}
+  bufferSize: 512
+  silenceThreshold: 0.6
+  timingStartPoint: 0.4
+  timingEndVariance: 1
+  silenceSampleWeight: 0.95
+  silenceHits: 0
+--- !u!114 &8296172668034770747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668034770744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: -1489447753, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emoterName: Emoter
-  queueProcessor: {fileID: 8296172668034770749}
-  lipsyncEmphasisChance: 0.75
+  queueProcessor: {fileID: 8296172668034770751}
+  lipsyncEmphasisChance: 1
   lipsyncEmphasisEmotes: []
   repeaterEmotes: []
   randomEmotes: []
@@ -12692,10 +13263,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: EyesWideL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -12712,10 +13285,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: EyesWideR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -12732,10 +13307,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: EyesWideR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -12752,10 +13329,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -12772,10 +13351,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -12792,10 +13373,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -12812,10 +13395,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -12832,10 +13417,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffL cmpnt 8
         controlType: 0
         lipsyncControlType: 0
@@ -12852,10 +13439,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffL cmpnt 9
         controlType: 0
         lipsyncControlType: 0
@@ -12872,10 +13461,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffR cmpnt 10
         controlType: 0
         lipsyncControlType: 0
@@ -12892,10 +13483,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: CheekPuffR cmpnt 11
         controlType: 0
         lipsyncControlType: 0
@@ -12912,10 +13505,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -13407,6 +14002,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.55
   - expData:
       name: soften
@@ -13427,10 +14024,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: Facial_Blends.SmileL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -13447,10 +14046,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: Facial_Blends.SmileR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -13467,10 +14068,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: Facial_Blends.SmileR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -13487,10 +14090,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -13507,10 +14112,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -13527,10 +14134,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -13547,10 +14156,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -13567,10 +14178,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -13902,6 +14515,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.45
   - expData:
       name: browsUp
@@ -13922,10 +14537,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -13942,10 +14559,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -13962,10 +14581,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -13982,10 +14603,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -14157,7 +14780,9 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
-    frac: 0.637
+    isAlwaysEmphasisEmote: 1
+    hasBeenFired: 0
+    frac: 0.55
   - expData:
       name: browUp
       components:
@@ -14177,10 +14802,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsUpR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -14197,10 +14824,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -14217,10 +14846,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsOuterLowerL cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -14237,10 +14868,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -14412,6 +15045,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: squint
@@ -14432,10 +15067,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -14452,10 +15089,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -14472,10 +15111,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -14492,10 +15133,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -14512,10 +15155,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -14532,10 +15177,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -14552,10 +15199,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -14572,10 +15221,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -14907,6 +15558,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: focus
@@ -14927,10 +15580,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -14947,10 +15602,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -14967,10 +15624,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SquintR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -14987,10 +15646,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -15162,6 +15823,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 1
   - expData:
       name: flare
@@ -15182,10 +15845,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -15202,10 +15867,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -15222,10 +15889,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -15242,10 +15911,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -15407,7 +16078,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 1
+      inspFoldout: 0
       previewDisplayMode: 0
       collectionExpand: 0
     isRandomEmote: 0
@@ -15417,6 +16088,8 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   - expData:
       name: scrunch
@@ -15437,10 +16110,12 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
@@ -15457,10 +16132,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
@@ -15477,10 +16154,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: NoseScrunchR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
@@ -15497,10 +16176,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
@@ -15517,10 +16198,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
@@ -15537,10 +16220,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
@@ -15557,10 +16242,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsInR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
@@ -15577,10 +16264,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownL cmpnt 8
         controlType: 0
         lipsyncControlType: 0
@@ -15597,10 +16286,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownL cmpnt 9
         controlType: 0
         lipsyncControlType: 0
@@ -15617,10 +16308,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownR cmpnt 10
         controlType: 0
         lipsyncControlType: 0
@@ -15637,10 +16330,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: BrowsDownR cmpnt 11
         controlType: 0
         lipsyncControlType: 0
@@ -15657,10 +16352,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 0
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -16152,10 +16849,13 @@ MonoBehaviour:
     startDelay: 0
     isPersistent: 0
     isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
     frac: 0.7
   useRandomEmotes: 0
   isChancePerEmote: 1
   numRandomEmotesPerCycle: 0
+  numRandomEmphasizersPerCycle: 0
   randomEmoteMinTimer: 1
   randomEmoteMaxTimer: 2
   randomChance: 0.5
@@ -16165,12 +16865,13 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 1
+  warnOnNullRefs: 1
   inspSalsaLinked: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
   inspCollectionDisplayMode: 0
---- !u!82 &8296172668034770747
+--- !u!82 &8296172668034770748
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16181,7 +16882,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ffed61721584262499da6ffab63be1f0, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -16266,7 +16967,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8296172668034770748
+--- !u!114 &8296172668034770749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16278,21 +16979,43 @@ MonoBehaviour:
   m_Script: {fileID: -1091098677, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSrc: {fileID: 8296172668034770747}
+  audioSrc: {fileID: 8296172668034770748}
   waitForAudioSource: 0
-  audioSourceWaitTarget: {fileID: 0}
   useExternalAnalysis: 0
-  audioUpdateDelay: 0.08
+  audioSourceWaitTarget: {fileID: 0}
+  queueProcessor: {fileID: 8296172668034770751}
+  emoter: {fileID: 8296172668034770747}
+  emphasizerTrigger: 0
   analysisValue: 0
-  loCutoff: 0.045
-  hiCutoff: 0.75
+  sampleSize: 512
+  audioUpdateDelay: 0.08
   playheadBias: 2800
   autoAdjustAnalysis: 1
   autoAdjustMicrophone: 0
-  microphone: 
   microphoneRecordHeadPointer: 0
+  scaleExternalAnalysis: 0
   silencePulseThreshold: 3
-  queueProcessor: {fileID: 8296172668034770749}
+  loCutoff: 0.015
+  hiCutoff: 0.75
+  useAdvDyn: 1
+  advDynPrimaryBias: 0.5
+  useAdvDynJitter: 1
+  advDynJitterAmount: 0.1
+  advDynJitterProb: 0.2
+  useAdvDynSecondaryMix: 0
+  advDynSecondaryMix: 0
+  useAdvDynRollback: 0
+  advDynRollback: 0.3
+  globalFrac: 1
+  usePersistence: 0
+  useTimingsOverride: 0
+  globalDurON: 0.08
+  globalDurOFF: 0.06
+  globalDurOffBalance: 0
+  originalUpdateDelay: 0
+  globalNuanceBalance: 0
+  useEasingOverride: 0
+  globalEasing: 4
   visemes:
   - expData:
       name: w
@@ -16303,9 +17026,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16313,19 +17036,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16333,19 +17058,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16353,19 +17080,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16373,19 +17102,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16393,19 +17124,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipOut cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16413,10 +17146,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -16671,9 +17406,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16681,19 +17416,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16701,19 +17438,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16721,19 +17460,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: TongueUp cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16741,19 +17482,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16761,19 +17504,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -16781,10 +17526,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -17039,9 +17786,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17049,19 +17796,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipIn cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17069,19 +17818,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17089,19 +17840,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17109,19 +17862,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownL cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17129,19 +17884,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownR cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17149,10 +17906,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -17407,9 +18166,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17417,19 +18176,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: TongueUp cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17437,19 +18198,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17457,19 +18220,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17477,19 +18242,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17497,19 +18264,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthUp cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17517,10 +18286,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -17775,9 +18546,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17785,19 +18556,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17805,19 +18578,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17825,19 +18600,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17845,19 +18622,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipOut cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17865,19 +18644,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: JawDown cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17885,19 +18666,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 6
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17905,19 +18688,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 7
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -17925,10 +18710,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -18263,9 +19050,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18273,19 +19060,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: FrownR cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18293,19 +19082,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SmileL cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18313,19 +19104,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: SmileR cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18333,19 +19126,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthOpen cmpnt 4
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18353,19 +19148,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpL cmpnt 5
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18373,19 +19170,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipUpR cmpnt 6
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18393,19 +19192,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: UpperLipIn cmpnt 7
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18413,19 +19214,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownL cmpnt 8
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18433,19 +19236,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: LowerLipDownR cmpnt 9
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18453,19 +19258,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthUp cmpnt 10
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18473,10 +19280,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -18931,9 +19740,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18941,19 +19750,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowL cmpnt 1
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18961,19 +19772,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthNarrowR cmpnt 2
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -18981,19 +19794,21 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       - name: MouthDown cmpnt 3
         controlType: 0
         lipsyncControlType: 0
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.1
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -19001,10 +19816,12 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
+        useOffsetFollow: 1
         inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
+        directionType: 0
       controllerVars:
       - bone: {fileID: 0}
         baseTform:
@@ -19170,35 +19987,10 @@ MonoBehaviour:
       previewDisplayMode: 0
       collectionExpand: 0
     trigger: 0.7346939
-  sampleSize: 512
-  emoter: {fileID: 8296172668034770746}
-  emphasizerTrigger: 0.2
-  scaleExternalAnalysis: 0
-  useAdvDyn: 1
-  advDynPrimaryBias: 0.5
-  useAdvDynJitter: 1
-  advDynJitterAmount: 0.1
-  advDynJitterProb: 0.25
-  useAdvDynSecondaryMix: 0
-  advDynSecondaryMix: 0
-  useAdvDynRollback: 0
-  advDynRollback: 0.3
-  globalFrac: 1
-  dynaVariOn: 0.08
-  dynaVariHold: 0
-  dynaVariOff: 0.06
-  dynaVariEasing: 4
-  usePersistence: 0
-  useMergeBack: 0
-  useTimingsOverride: 0
-  globalDurON: 0.08
-  globalDurOFF: 0.06
-  globalDurOffBalance: 0
-  originalUpdateDelay: 0
-  globalNuanceBalance: 0
-  useEasingOverride: 0
-  globalEasing: 4
   configReady: 1
+  warnOnNullRefs: 1
+  useAudioAnalysis: 1
+  needAudioSource: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
   inspStateFoldoutVisemes: 0
@@ -19206,26 +19998,6 @@ MonoBehaviour:
   inspAnalysisDisplay: 0
   inspOverrideSecondaryMix: 0
   inspDetailedTimingAdjustments: 0
---- !u!114 &8296172668034770749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296172668034770744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2069102741, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useMergeWithInfluencer: 1
-  inspHeight: 150
-  inspShowHeads: 1
-  inspShowEmote: 1
-  inspShowEyes: 1
-  inspShowLids: 1
-  inspShowLipsync: 1
-  inspShowBlinks: 1
 --- !u!114 &8296172668034770750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19238,7 +20010,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c1809e86d4ccb4ba07a424a42e1728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 8296172668034770747}
+  source: {fileID: 8296172668034770748}
+--- !u!114 &8296172668034770751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668034770744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2069102741, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useMergeWithInfluencer: 1
+  ignoreScaledTime: 0
+  inspHeight: 150
+  inspShowHeads: 1
+  inspShowEmote: 1
+  inspShowEyes: 1
+  inspShowLids: 1
+  inspShowLipsync: 1
+  inspShowBlinks: 1
 --- !u!4 &8310052124758348520
 Transform:
   m_ObjectHideFlags: 0
