@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SALSA_Template_SalsaVisemeTriggerEventSubscriber : MonoBehaviour
 {
-	[SerializeField] private Salsa salsaInstance;
+	public Salsa salsaInstance;
 
 	private void OnEnable()
 	{

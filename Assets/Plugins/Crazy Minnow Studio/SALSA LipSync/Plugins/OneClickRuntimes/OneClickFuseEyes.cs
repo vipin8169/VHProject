@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Text.RegularExpressions;
 
 namespace CrazyMinnow.SALSA.OneClicks
 {
@@ -8,7 +7,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 		public static void Setup(GameObject go)
 		{
 			string body = "body";
-			string eyelash = "eyelash";
+			string[] eyelash = new string[] {"eyelash", "default"};
 			string head = "head";
 			string eyeL = "lefteye";
 			string eyeR = "righteye";
@@ -40,7 +39,8 @@ namespace CrazyMinnow.SALSA.OneClicks
                 eyes.heads[0].expData.name = "head";
                 eyes.heads[0].expData.components[0].name = "head";
                 eyes.headTargetOffset.y = 0.052f;
-				eyes.FixAllTransformAxes(ref eyes.heads, false);
+                eyes.CaptureMin(ref eyes.heads);
+                eyes.CaptureMax(ref eyes.heads);
 
                 // Eyes - Bone_Rotation
                 eyes.BuildEyeTemplate(Eyes.EyeTemplates.Bone_Rotation);
@@ -50,13 +50,13 @@ namespace CrazyMinnow.SALSA.OneClicks
                 eyes.eyes[1].expData.controllerVars[0].bone = Eyes.FindTransform(eyes.characterRoot, eyeR);
                 eyes.eyes[1].expData.name = "eyeR";
                 eyes.eyes[1].expData.components[0].name = "eyeR";
-				eyes.FixAllTransformAxes(ref eyes.eyes, false);
+                eyes.CaptureMin(ref eyes.eyes);
+                eyes.CaptureMax(ref eyes.eyes);
 
                 // Blinklids - Bone_Rotation
-                eyes.BuildEyelidTemplate(Eyes.EyelidTemplates.BlendShapes); // includes left/right eyelid
+                eyes.BuildEyelidTemplate(Eyes.EyelidTemplates.BlendShapes, Eyes.EyelidSelection.Upper); // includes left/right eyelid
                 eyes.AddEyelidShapeExpression(ref eyes.blinklids); // add eyelash left
                 eyes.AddEyelidShapeExpression(ref eyes.blinklids); // add eyelash right
-                eyes.SetEyelidShapeSelection(Eyes.EyelidSelection.Upper);
                 float blinkMax = 0.75f;
                 // Left eyelid
                 eyes.blinklids[0].expData.controllerVars[0].smr = Eyes.FindTransform(eyes.characterRoot, body).GetComponent<SkinnedMeshRenderer>();

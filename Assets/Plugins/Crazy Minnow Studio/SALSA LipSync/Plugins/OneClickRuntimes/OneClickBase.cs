@@ -9,6 +9,11 @@ namespace CrazyMinnow.SALSA.OneClicks
 	{
 		/// <summary>
 		/// RELEASE NOTES:
+		/// 	2.5.0:
+		/// 		+ audioUpdateDelay setting: default 0.0875f.
+		/// 		+ support for always emphasis emotes: default false.
+		/// 		~ audio clip resource now only updates if not set.
+		/// 		~ lipsync emphasis chance defaults to 1.0f.
 		///		2.1.6:
 		/// 		~ audio source now defaults to loop = false.
 		///		2.1.5:
@@ -60,17 +65,19 @@ namespace CrazyMinnow.SALSA.OneClicks
 		//	- data analysis settings
 		protected static bool autoAdjustAnalysis = true;
 		protected static bool autoAdjustMicrophone = false; // only true if you are using micInput
+		protected static float audioUpdateDelay = 0.0875f;
 		// advanced dynamics
-		protected static float loCutoff = 0.045f;
-		protected static float hiCutoff = 0.73f;
+		protected static float loCutoff = 0.015f;
+		protected static float hiCutoff = 0.75f;
 		protected static bool useAdvDyn = true;
-		protected static float advDynPrimaryBias = 0.40f;
+		protected static float advDynPrimaryBias = 0.45f;
 		protected static bool useAdvDynJitter = true;
-		protected static float advDynJitterAmount = 0.25f;
-		protected static float advDynJitterProb = 0.50f;
+		protected static float advDynJitterAmount = 0.10f;
+		protected static float advDynJitterProb = 0.20f;
 		protected static float advDynSecondaryMix = 0.0f;
 
 		// emoter settings...
+		protected static float emphasisChance = 1.0f;
 		protected static bool useRandomEmotes = false;
 		protected static bool isChancePerEmote = false;
 		protected static int numRandomEmotesPerCycle = 1;
@@ -190,10 +197,10 @@ namespace CrazyMinnow.SALSA.OneClicks
 				                                      OneClickComponent.ComponentType.Bone));
 		}
 
-		protected static void AddEmoteFlags(bool isRandom, bool isEmph, bool isRepeater, float frac = 1.0f)
+		protected static void AddEmoteFlags(bool isRandom, bool isEmph, bool isRepeater, float frac = 1.0f, bool isAlwaysEmph = false)
 		{
 			var config = oneClickConfigurations[oneClickConfigurations.Count - 1];
-			config.oneClickExpressions[config.oneClickExpressions.Count - 1].SetEmoterBools(isRandom, isEmph, isRepeater, frac);
+			config.oneClickExpressions[config.oneClickExpressions.Count - 1].SetEmoterBools(isRandom, isEmph, isRepeater, frac, isAlwaysEmph);
 		}
 
 		protected static void DoOneClickiness(GameObject go, AudioClip clip)
@@ -225,7 +232,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 							audSrc = selectedObject.AddComponent<AudioSource>();
 						audSrc.playOnAwake = true;
 						audSrc.loop = false;
-						if (clip != null)
+						if (clip != null && audSrc.clip == null)
 							audSrc.clip = clip;
 						salsa.audioSrc = audSrc;
 
@@ -235,6 +242,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 						//	- data analysis settings
 						salsa.autoAdjustAnalysis = autoAdjustAnalysis;
 						salsa.autoAdjustMicrophone = autoAdjustMicrophone;
+						salsa.audioUpdateDelay = audioUpdateDelay;
 						//	- advanced dynamics
 						salsa.loCutoff = loCutoff;
 						salsa.hiCutoff = hiCutoff;
@@ -258,6 +266,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 						salsa.emoter = emoter;
 						emoter.queueProcessor = qp;
 
+						emoter.lipsyncEmphasisChance = emphasisChance;
 						emoter.useRandomEmotes = useRandomEmotes;
 						emoter.isChancePerEmote = isChancePerEmote;
 						emoter.NumRandomEmotesPerCycle = numRandomEmotesPerCycle;
@@ -297,7 +306,10 @@ namespace CrazyMinnow.SALSA.OneClicks
 
 					if (requiredSmrs.Count == 0)
 					{
-						Debug.LogError("This object does not have the required components. Could not find the referenced SMRs. Ensure the appropriate one-click was used for your model type and generation.");
+						string smrsSearched = "";
+						foreach (var smrSearch in configuration.smrSearches)
+							smrsSearched += smrSearch + " ";
+						Debug.LogError("This object does not have the required components. Could not find the referenced SMRs. Ensure the appropriate one-click was used for your model type and generation. " + smrsSearched);
 						return;
 					}
 				}
@@ -353,6 +365,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 						emote.expData.inspFoldout = false;
 						emote.isRandomEmote = configuration.oneClickExpressions[exp].isRandom;
 						emote.isLipsyncEmphasisEmote = configuration.oneClickExpressions[exp].isEmphasis;
+						emote.isAlwaysEmphasisEmote = configuration.oneClickExpressions[exp].isAlwaysEmphasis;
 						emote.isRepeaterEmote = configuration.oneClickExpressions[exp].isRepeater;
 						emote.frac = configuration.oneClickExpressions[exp].expressionDynamics;
 						expression = emote.expData;
@@ -580,6 +593,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 		public string name;
 		public bool isRandom = false;
 		public bool isEmphasis = false;
+		public bool isAlwaysEmphasis = false;
 		public bool isRepeater = false;
 		public float expressionDynamics = 1.0f;
 		public List<OneClickComponent> components;
@@ -590,10 +604,11 @@ namespace CrazyMinnow.SALSA.OneClicks
 			this.components = components;
 		}
 
-		public void SetEmoterBools(bool isRand, bool isEmph, bool isRep, float frac)
+		public void SetEmoterBools(bool isRand, bool isEmph, bool isRep, float frac, bool isAlwaysEmph = false)
 		{
 			isRandom = isRand;
 			isEmphasis = isEmph;
+			isAlwaysEmphasis = isAlwaysEmph;
 			isRepeater = isRep;
 			expressionDynamics = frac;
 		}

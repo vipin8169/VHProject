@@ -5,24 +5,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 {
 	/// <summary>
 	/// RELEASE NOTES:
-	///		2.3.0 (2020-02-02):
-	/// 		~ updated to operate with SALSA Suite v2.3.0+
-	/// 		NOTE: Does not work with prior versions of SALSA Suite (before v2.3.0)
-	/// 	2.1.3 (2019-07-25):
-	/// 		~ standardized entry call for setup.
-	/// 	2.1.2 (2019-07-03):
-	/// 		- confirmed operation with Base 2.1.2
-	/// 	2.1.1 (2019-06-28):
-	/// 		+ 2018.4+ check for prefab and warn > then unpack or cancel.
-	/// 	2.1.0:
-	/// 		~ convert from editor code to full engine code and move to Plugins.
-	/// 	2.0.3:
-	/// 		~ EmoteR emphasizer emotes update to...exasper,soften,browsUp,
-	/// 			browUp,squint,focus,flare,scrunch.
-	/// 		~ SALSA emphasizer trigger set to .2f.
-	/// 	2.0.2:
-	/// 		! fix new blendshape names.
-	///		2.0.0-BETA : Initial release.
+	///		2.5.0 : Initial release.
 	/// ==========================================================================
 	/// PURPOSE: This script provides simple, simulated lip-sync input to the
 	///		Salsa component from text/string values. For the latest information
@@ -35,9 +18,9 @@ namespace CrazyMinnow.SALSA.OneClicks
 	///		Crazy Minnow Studio, LLC of any and all liability.
 	/// ==========================================================================
 	/// </summary>
-	public class CustomOneClickEditor : Editor
+	public class OneClickBoxHeadEditor : Editor
 	{
-		[MenuItem("GameObject/Crazy Minnow Studio/SALSA LipSync/One-Clicks/MyCustomOneClick")]
+		[MenuItem("GameObject/Crazy Minnow Studio/SALSA LipSync/One-Clicks/boxHead-demo")]
 		public static void OneClickSetup()
 		{
 			GameObject go = Selection.activeGameObject;
@@ -65,8 +48,8 @@ namespace CrazyMinnow.SALSA.OneClicks
 
 		private static void ApplyOneClick(GameObject go)
 		{
-			CustomOneClickFuse.Setup(go, AssetDatabase.LoadAssetAtPath<AudioClip>(OneClickBase.RESOURCE_CLIP));
-            CustomOneClickFuseEyes.Setup(Selection.activeGameObject);
+			OneClickBoxHead.Setup(go, AssetDatabase.LoadAssetAtPath<AudioClip>(OneClickBase.RESOURCE_CLIP));
+			OneClickBoxHeadEyes.Setup(Selection.activeGameObject);
 		}
 	}
 }

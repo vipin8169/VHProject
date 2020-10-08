@@ -5,6 +5,12 @@ namespace CrazyMinnow.SALSA.OneClicks
 {
 	/// <summary>
 	/// RELEASE NOTES:
+	/// 	2.5.0 (2020-08-20):
+	/// 		REQUIRES: SALSA LipSync Suite v2.5.0+, does NOT work with prior versions.
+	/// 		REQUIRES: OneClickBase v2.5.0+
+	/// 		+ Support for Eyes module v2.5.0+
+	/// 		+ Adds Advanced Dynamics Silence Analyzer to character.
+	/// 		~ Tweaks to SALSA settings.
 	///		2.3.0 (2020-02-02):
 	/// 		~ updated to operate with SALSA Suite v2.3.0+
 	/// 		NOTE: Does not work with prior versions of SALSA Suite (before v2.3.0)

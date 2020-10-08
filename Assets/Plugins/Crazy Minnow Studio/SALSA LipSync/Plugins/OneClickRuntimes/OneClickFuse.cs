@@ -34,18 +34,20 @@ namespace CrazyMinnow.SALSA.OneClicks
 				////////////////////////////////////////////////////////
 				// Adjust SALSA settings to taste...
 				// - data analysis settings
+				// - data analysis settings
 				autoAdjustAnalysis = true;
 				autoAdjustMicrophone = false;
+				audioUpdateDelay = 0.08f;
 				// - advanced dynamics settings
-				loCutoff = 0.045f;
+				loCutoff = 0.015f;
 				hiCutoff = 0.75f;
 				useAdvDyn = true;
-				advDynPrimaryBias = 0.5f;
+				advDynPrimaryBias = 0.50f;
 				useAdvDynJitter = true;
-				advDynJitterAmount = 0.1f;
-				advDynJitterProb = 0.25f;
-				advDynSecondaryMix = 0f;
-				emphasizerTrigger = 0.2f;
+				advDynJitterAmount = 0.10f;
+				advDynJitterProb = 0.20f;
+				advDynSecondaryMix = 0.0f;
+				emphasizerTrigger = 0.0f;
 
 
 				////////////////////////////////////////////////////////
@@ -53,71 +55,71 @@ namespace CrazyMinnow.SALSA.OneClicks
 
 
 				NewExpression("w");
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.08f, 0f, 0.06f, "MouthNarrowL", 1f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.08f, 0f, 0.06f, "MouthNarrowR", 1f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.08f, 0f, 0.06f, "UpperLipUpL", 0.25f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.08f, 0f, 0.06f, "UpperLipUpR", 0.25f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.08f, 0f, 0.06f, "UpperLipOut", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipOut", "LowerLipOut"}, 0.08f, 0f, 0.06f, "LowerLipOut", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.10f, 0f, 0.07f, "MouthNarrowL", 1f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.10f, 0f, 0.07f, "MouthNarrowR", 1f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.10f, 0f, 0.07f, "UpperLipUpL", 0.25f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.10f, 0f, 0.07f, "UpperLipUpR", 0.25f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.10f, 0f, 0.07f, "UpperLipOut", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipOut", "LowerLipOut"}, 0.10f, 0f, 0.07f, "LowerLipOut", 0.2f);
 
 
 				NewExpression("t");
-				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.08f, 0f, 0.06f, "JawDown", 0.25f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.08f, 0f, 0.06f, "LowerLipDownL", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.08f, 0f, 0.06f, "LowerLipDownR", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.TongueUp", "TongueUp"}, 0.08f, 0f, 0.06f, "TongueUp", 0.23f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.08f, 0f, 0.06f, "UpperLipUpL", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.08f, 0f, 0.06f, "UpperLipUpR", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.10f, 0f, 0.07f, "JawDown", 0.25f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.10f, 0f, 0.07f, "LowerLipDownL", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.10f, 0f, 0.07f, "LowerLipDownR", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.TongueUp", "TongueUp"}, 0.10f, 0f, 0.07f, "TongueUp", 0.23f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.10f, 0f, 0.07f, "UpperLipUpL", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.10f, 0f, 0.07f, "UpperLipUpR", 0.2f);
 
 
 				NewExpression("f");
-				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.08f, 0f, 0.06f, "JawDown", 0.23f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipIn", "LowerLipIn"}, 0.08f, 0f, 0.06f, "LowerLipIn", 0.77f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.08f, 0f, 0.06f, "UpperLipUpL", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.08f, 0f, 0.06f, "UpperLipUpR", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.Frown_Left", "Frown_Left"}, 0.08f, 0f, 0.06f, "FrownL", 0.15f);
-				AddShapeComponent(new[] {"Facial_Blends.Frown_Right", "Frown_Right"}, 0.08f, 0f, 0.06f, "FrownR", 0.15f);
+				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.10f, 0f, 0.07f, "JawDown", 0.23f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipIn", "LowerLipIn"}, 0.10f, 0f, 0.07f, "LowerLipIn", 0.77f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.10f, 0f, 0.07f, "UpperLipUpL", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.10f, 0f, 0.07f, "UpperLipUpR", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.Frown_Left", "Frown_Left"}, 0.10f, 0f, 0.07f, "FrownL", 0.15f);
+				AddShapeComponent(new[] {"Facial_Blends.Frown_Right", "Frown_Right"}, 0.10f, 0f, 0.07f, "FrownR", 0.15f);
 
 
 				NewExpression("th");
-				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.08f, 0f, 0.06f, "JawDown", 0.3f);
-				AddShapeComponent(new[] {"Facial_Blends.TongueUp", "TongueUp"}, 0.08f, 0f, 0.06f, "TongueUp", 0.22f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.08f, 0f, 0.06f, "MouthNarrowL", 0.5f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.08f, 0f, 0.06f, "MouthNarrowR", 0.5f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.08f, 0f, 0.06f, "UpperLipOut", 0.53f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthUp", "MouthUp"}, 0.08f, 0f, 0.06f, "MouthUp", 0.08f);
+				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.10f, 0f, 0.07f, "JawDown", 0.3f);
+				AddShapeComponent(new[] {"Facial_Blends.TongueUp", "TongueUp"}, 0.10f, 0f, 0.07f, "TongueUp", 0.22f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.10f, 0f, 0.07f, "MouthNarrowL", 0.5f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.10f, 0f, 0.07f, "MouthNarrowR", 0.5f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.10f, 0f, 0.07f, "UpperLipOut", 0.53f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthUp", "MouthUp"}, 0.10f, 0f, 0.07f, "MouthUp", 0.08f);
 
 
 				NewExpression("ow");
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.08f, 0f, 0.06f, "MouthNarrowL", 0.6f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.08f, 0f, 0.06f, "MouthNarrowR", 0.6f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.08f, 0f, 0.06f, "UpperLipUpL", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.08f, 0f, 0.06f, "UpperLipUpR", 0.2f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.08f, 0f, 0.06f, "UpperLipOut", 0.3f);
-				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.08f, 0f, 0.06f, "JawDown", 0.4f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.08f, 0f, 0.06f, "LowerLipDownL", 0.1f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.08f, 0f, 0.06f, "LowerLipDownR", 0.1f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.10f, 0f, 0.07f, "MouthNarrowL", 0.6f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.10f, 0f, 0.07f, "MouthNarrowR", 0.6f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.10f, 0f, 0.07f, "UpperLipUpL", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.10f, 0f, 0.07f, "UpperLipUpR", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipOut", "UpperLipOut"}, 0.10f, 0f, 0.07f, "UpperLipOut", 0.3f);
+				AddShapeComponent(new[] {"Facial_Blends.Jaw_Down", "Jaw_Down"}, 0.10f, 0f, 0.07f, "JawDown", 0.4f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.10f, 0f, 0.07f, "LowerLipDownL", 0.1f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.10f, 0f, 0.07f, "LowerLipDownR", 0.1f);
 
 
 				NewExpression("ee");
-				AddShapeComponent(new[] {"Facial_Blends.Frown_Left", "Frown_Left"}, 0.08f, 0f, 0.06f, "FrownL", 0.25f);
-				AddShapeComponent(new[] {"Facial_Blends.Frown_Right", "Frown_Right"}, 0.08f, 0f, 0.06f, "FrownR", 0.25f);
-				AddShapeComponent(new[] {"Facial_Blends.Smile_Left", "Smile_Left"}, 0.08f, 0f, 0.06f, "SmileL", 0.4f);
-				AddShapeComponent(new[] {"Facial_Blends.Smile_Right", "Smile_Right"}, 0.08f, 0f, 0.06f, "SmileR", 0.4f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthOpen", "MouthOpen"}, 0.08f, 0f, 0.06f, "MouthOpen", 0.1f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.08f, 0f, 0.06f, "UpperLipUpL", 0.15f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.08f, 0f, 0.06f, "UpperLipUpR", 0.15f);
-				AddShapeComponent(new[] {"Facial_Blends.UpperLipIn", "UpperLipIn"}, 0.08f, 0f, 0.06f, "UpperLipIn", 0.6f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.08f, 0f, 0.06f, "LowerLipDownL", 0.55f);
-				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.08f, 0f, 0.06f, "LowerLipDownR", 0.55f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthUp", "MouthUp"}, 0.08f, 0f, 0.06f, "MouthUp", 0.2f);
+				AddShapeComponent(new[] {"Facial_Blends.Frown_Left", "Frown_Left"}, 0.10f, 0f, 0.07f, "FrownL", 0.25f);
+				AddShapeComponent(new[] {"Facial_Blends.Frown_Right", "Frown_Right"}, 0.10f, 0f, 0.07f, "FrownR", 0.25f);
+				AddShapeComponent(new[] {"Facial_Blends.Smile_Left", "Smile_Left"}, 0.10f, 0f, 0.07f, "SmileL", 0.4f);
+				AddShapeComponent(new[] {"Facial_Blends.Smile_Right", "Smile_Right"}, 0.10f, 0f, 0.07f, "SmileR", 0.4f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthOpen", "MouthOpen"}, 0.10f, 0f, 0.07f, "MouthOpen", 0.1f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Left", "UpperLipUp_Left"}, 0.10f, 0f, 0.07f, "UpperLipUpL", 0.15f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipUp_Right", "UpperLipUp_Right"}, 0.10f, 0f, 0.07f, "UpperLipUpR", 0.15f);
+				AddShapeComponent(new[] {"Facial_Blends.UpperLipIn", "UpperLipIn"}, 0.10f, 0f, 0.07f, "UpperLipIn", 0.6f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Left", "LowerLipDown_Left"}, 0.10f, 0f, 0.07f, "LowerLipDownL", 0.55f);
+				AddShapeComponent(new[] {"Facial_Blends.LowerLipDown_Right", "LowerLipDown_Right"}, 0.10f, 0f, 0.07f, "LowerLipDownR", 0.55f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthUp", "MouthUp"}, 0.10f, 0f, 0.07f, "MouthUp", 0.2f);
 
 
 				NewExpression("oo");
-				AddShapeComponent(new[] {"Facial_Blends.MouthOpen", "MouthOpen"}, 0.08f, 0f, 0.06f, "MouthOpen", 0.35f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.08f, 0f, 0.06f, "MouthNarrowL", 0.45f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.08f, 0f, 0.06f, "MouthNarrowR", 0.45f);
-				AddShapeComponent(new[] {"Facial_Blends.MouthDown", "MouthDown"}, 0.08f, 0f, 0.06f, "MouthDown", 0.07f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthOpen", "MouthOpen"}, 0.10f, 0f, 0.07f, "MouthOpen", 0.35f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Left", "MouthNarrow_Left"}, 0.10f, 0f, 0.07f, "MouthNarrowL", 0.45f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthNarrow_Right", "MouthNarrow_Right"}, 0.10f, 0f, 0.07f, "MouthNarrowR", 0.45f);
+				AddShapeComponent(new[] {"Facial_Blends.MouthDown", "MouthDown"}, 0.10f, 0f, 0.07f, "MouthDown", 0.07f);
 
 			}
 			#endregion // SALSA-configuration
@@ -164,7 +166,7 @@ namespace CrazyMinnow.SALSA.OneClicks
 
 
 				NewExpression("browsUp");
-				AddEmoteFlags(false, true, false, 0.637f);
+				AddEmoteFlags(false, true, false, 0.55f, true);
 				AddShapeComponent(new[] {"Facial_Blends.BrowsUp_Left", "BrowsUp_Left"}, 0.2f, 0.1f, 0.15f, "BrowsUpL", 0.596f);
 				AddShapeComponent(new[] {"Facial_Blends.BrowsUp_Right", "BrowsUp_Right"}, 0.15f, 0.05f, 0.15f, "BrowsUpR", 0.821f);
 
@@ -206,7 +208,11 @@ namespace CrazyMinnow.SALSA.OneClicks
 
 			}
 			#endregion // EmoteR-configuration
+
 			DoOneClickiness(gameObject, clip);
+
+			if (selectedObject.GetComponent<SalsaAdvancedDynamicsSilenceAnalyzer>() == null)
+				selectedObject.AddComponent<SalsaAdvancedDynamicsSilenceAnalyzer>();
 		}
 	}
 }

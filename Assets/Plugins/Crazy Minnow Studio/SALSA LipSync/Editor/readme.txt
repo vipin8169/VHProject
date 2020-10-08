@@ -1,5 +1,4 @@
-Version Information:
-SALSA LipSync Suite v2.4.1 == 2020-04-02::09:19CST
+SALSA LipSync Suite v2 - General Readme
 
 Important Links and Information:
 	Publisher Site:
